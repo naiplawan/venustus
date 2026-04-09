@@ -1,0 +1,58 @@
+#!/usr/bin/env node
+
+/**
+ * Venustas CLI — anti-pattern detection and design quality auditing
+ *
+ * Forked from impeccable by Paul Bakaus (Apache-2.0)
+ *
+ * Usage:
+ *   npx venustas detect [file-or-dir-or-url...]
+ *   npx venustas live [--port=PORT]
+ *   npx venustas live stop
+ *   npx venustas --help
+ */
+
+import { readFileSync } from 'node:fs';
+import { join, dirname } from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const args = process.argv.slice(2);
+const command = args[0];
+
+if (!command || command === '--help' || command === '-h') {
+  console.log(`Usage: venustas <command> [options]
+
+Commands:
+  detect [file-or-dir-or-url...]   Scan for UI anti-patterns and design quality issues
+  live [--port=PORT]               Start browser detection overlay server
+  live stop                        Stop a running live server
+
+Options:
+  --help       Show this help message
+  --version    Show version number
+
+Run 'venustas <command> --help' for command-specific options.`);
+  process.exit(0);
+}
+
+if (command === '--version' || command === '-v') {
+  const pkg = JSON.parse(readFileSync(join(__dirname, '..', 'package.json'), 'utf8'));
+  console.log(pkg.version);
+  process.exit(0);
+}
+
+if (command === 'detect') {
+  process.argv = [process.argv[0], process.argv[1], ...args.slice(1)];
+  const { detectCli } = await import('../src/detect-antipatterns.mjs');
+  await detectCli();
+} else if (command === 'live') {
+  process.argv = [process.argv[0], process.argv[1], ...args.slice(1)];
+  const { liveCli } = await import('../src/detect-antipatterns.mjs');
+  await liveCli();
+} else {
+  // Default: treat as detect arguments (allow `npx venustas src/` shorthand)
+  process.argv = [process.argv[0], process.argv[1], ...args];
+  const { detectCli } = await import('../src/detect-antipatterns.mjs');
+  await detectCli();
+}

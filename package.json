@@ -1,0 +1,43 @@
+{
+  "name": "venustus",
+  "version": "0.1.0",
+  "description": "Design skills, anti-pattern detection, and quality auditing for AI coding agents",
+  "keywords": [
+    "design",
+    "frontend",
+    "ux",
+    "skills",
+    "ai",
+    "anti-patterns",
+    "lint",
+    "accessibility",
+    "css",
+    "html",
+    "detection"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
+  "bin": {
+    "venustas": "bin/cli.js"
+  },
+  "main": "./src/detect-antipatterns.mjs",
+  "exports": {
+    ".": "./src/detect-antipatterns.mjs",
+    "./browser": "./src/detect-antipatterns-browser.js"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "skills/",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "jsdom": "^29.0.0"
+  },
+  "optionalDependencies": {
+    "puppeteer": "^24.39.1"
+  }
+}
