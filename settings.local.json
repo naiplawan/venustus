@@ -8,8 +8,8 @@
       "Bash(echo \"PID: $!\")",
       "Bash(ps -p 42586 -o pid,state,command)",
       "Bash(python3:*)",
-      "Bash(xdg-open /tmp/impeccable-eval-review.html)",
-      "Bash(open /tmp/impeccable-eval-review.html)",
+      "Bash(xdg-open /tmp/venustus-eval-review.html)",
+      "Bash(open /tmp/venustus-eval-review.html)",
       "Bash(grep:*)",
       "Bash(ls:*)"
     ]

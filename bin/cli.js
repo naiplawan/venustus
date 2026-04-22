@@ -3,13 +3,14 @@
 /**
  * Venustas CLI — anti-pattern detection and design quality auditing
  *
- * Forked from impeccable by Paul Bakaus (Apache-2.0)
+ * Originally based on work by Paul Bakaus (Apache-2.0)
  *
  * Usage:
- *   npx venustas detect [file-or-dir-or-url...]
- *   npx venustas live [--port=PORT]
- *   npx venustas live stop
- *   npx venustas --help
+ *   bunx venustas detect [file-or-dir-or-url...]
+ *   bunx venustas live [--port=PORT]
+ *   bunx venustas live stop
+ *   bunx venustas skills help|install|update
+ *   bunx venustas --help
  */
 
 import { readFileSync } from 'node:fs';
@@ -27,6 +28,9 @@ Commands:
   detect [file-or-dir-or-url...]   Scan for UI anti-patterns and design quality issues
   live [--port=PORT]               Start browser detection overlay server
   live stop                        Stop a running live server
+  skills help                      List all available skills and commands
+  skills install                   Install venustus skills into your project
+  skills update                    Update skills to the latest version
 
 Options:
   --help       Show this help message
@@ -50,8 +54,11 @@ if (command === 'detect') {
   process.argv = [process.argv[0], process.argv[1], ...args.slice(1)];
   const { liveCli } = await import('../src/detect-antipatterns.mjs');
   await liveCli();
+} else if (command === 'skills') {
+  const { run } = await import('./commands/skills.mjs');
+  await run(args.slice(1));
 } else {
-  // Default: treat as detect arguments (allow `npx venustas src/` shorthand)
+  // Default: treat as detect arguments (allow `bunx venustas src/` shorthand)
   process.argv = [process.argv[0], process.argv[1], ...args];
   const { detectCli } = await import('../src/detect-antipatterns.mjs');
   await detectCli();

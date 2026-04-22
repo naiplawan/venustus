@@ -2680,7 +2680,7 @@ async function detectUrl(url) {
   try {
     puppeteer = await import('puppeteer');
   } catch {
-    throw new Error('puppeteer is required for URL scanning. Install: npm install puppeteer');
+    throw new Error('puppeteer is required for URL scanning. Install: bun add puppeteer');
   }
 
   // Read the browser detection script — reuse it instead of reimplementing
@@ -3361,7 +3361,7 @@ async function main() {
               process.stderr.write(
                 `\n${fwConfig.name} dev server detected on localhost:${fwConfig.port}.\n` +
                 `For more accurate results, scan the running site:\n` +
-                `  npx venustas detect http://localhost:${fwConfig.port}\n\n`
+                `  bunx venustas detect http://localhost:${fwConfig.port}\n\n`
               );
             } else if (probe.listening && !probe.matched) {
               process.stderr.write(
@@ -3372,7 +3372,7 @@ async function main() {
               process.stderr.write(
                 `\n${fwConfig.name} project detected (${path.basename(fwConfig.configPath)}).\n` +
                 `Start the dev server and scan via URL for best results:\n` +
-                `  npx venustas detect http://localhost:${fwConfig.port}\n\n`
+                `  bunx venustas detect http://localhost:${fwConfig.port}\n\n`
               );
             }
           }
@@ -3551,7 +3551,7 @@ The server provides:
     console.log(`  const s = document.createElement('script');`);
     console.log(`  s.src = '${url}/detect.js';`);
     console.log(`  document.head.appendChild(s);\n`);
-    console.log(`Stop: npx venustas live stop`);
+    console.log(`Stop: bunx venustas live stop`);
   });
 
   process.on('SIGINT', shutdown);

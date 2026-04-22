@@ -1,0 +1,215 @@
+{
+  "version": 1,
+  "skills": {
+    "adapt": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "fb7cca7602be381b7b486e731fdcd480335cbb9b925e1911276f5bb9352c6b2f"
+    },
+    "animate": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "b00cb71343fa7e987489ad330e3dd3e504ff893b9ddd2b30cacea93691b78e46"
+    },
+    "arrange": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "698fb952e9ef0d2551a5c3421ef61e084934420e0d8371a02efb4f76f21049e8"
+    },
+    "audit": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "eb9109e542194f8711cffce23095ef5da2deb4ed0b23f59c07e912e3931f1e17"
+    },
+    "bolder": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "4b03286f1dc45da3e1a76a71c0c62729b4887c814dff3084345889cb4780a3a2"
+    },
+    "clarify": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "1138379fb9f10b911094fb57b5607de8efbd77d2467fba4981ccc1c155457c6f"
+    },
+    "colorize": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "6e292a0ba428d339615e025cab1f2692b2e6267ba247574a00545b1dac1acc5a"
+    },
+    "critique": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "59d3facaee0d7c969f23e938c35239183d3fdd9befff526908585e55afa3a9dd"
+    },
+    "delight": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "80127e9c695f768f5df70b9f62ad51cdfb3b4892791c4d901214b08f3be8d37e"
+    },
+    "distill": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "ce6fbd844488a326208c1302c73b2865fa4fb20e447b6a06c038315444d6e0c5"
+    },
+    "extract": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "1bbe30b5be73a86971f6bccb37daae84aaafceaa6d23429d6a3a0442378ac4ec"
+    },
+    "frontend-design": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "9ebe6c652743fcde8d2ae773f34b6f548dcc8b2e75a3a30936adcd8b95dd2d16"
+    },
+    "harden": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "f8ce420b3c78b90707704122264da76514c793ac0e12fb9540ace68d257c231c"
+    },
+    "normalize": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "281b7f9e590e252a6aec3f5f83c5ca548c91e8bccb3fd6eee4cc7d5be0becb4d"
+    },
+    "onboard": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "1cbedf70f906150b1b8bb70b61393eaf67e2e1311e1b5e43bde3e47411bcaa2b"
+    },
+    "optimize": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "f7adc2a2e540a590978b567d82985062bfada83385f5ad5d50b13a127cdc96d6"
+    },
+    "overdrive": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "3b940d458ef13afcb93ccb51ff430510aca4a9733d68fbdc335927a2636a091d"
+    },
+    "polish": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "33a8b5195481719e954b71762de56faaabc68c479602673894e0d0e47336756b"
+    },
+    "quieter": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "6066e73875e4770e624641355cc04662ce75d2b1d1a3673e24dcbd0ec8936297"
+    },
+    "teach-venustus": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "b3b5541bb9b0a260af793c7d79c2db4a436c2cd9384be34a4024c7f28af72e62"
+    },
+    "typeset": {
+      "source": "pbakaus/venustus",
+      "sourceType": "github",
+      "computedHash": "0259de15644a89550cfd6a936a8e1866dcb35d20ccc96197614459233a9bcdb3"
+    },
+    "venustas": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "d8a1f80dfd83609c4374b1645b6c9bc3b08238ffacb787b6cfd7c6b22b279180"
+    },
+    "venustas-adapt": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "e0c12c95dc32f48863804f50d99683f46d7c4e107d0818c3ddfd17c94fde8360"
+    },
+    "venustas-animate": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "cf06116026e0f6caed7d653a39523c35ca364511a566ab1b98a0931110a52e77"
+    },
+    "venustas-arrange": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "2334fea8468b09fb1ef085e3c8625156835904312339ea7addaacae43019a33b"
+    },
+    "venustas-audit": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "17222580e5bdf9b247aa2b3a18bb067c5f3da8ba92e1e017d5a55e1e5d507a53"
+    },
+    "venustas-bolder": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "cf1cea1cf66b01c67335a108503205c55f172aeab6ba3ad9556bb6a82fa5495a"
+    },
+    "venustas-clarify": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "0c9b901d5efcde0c56d522ad56a083766915f9bcf5812e67c977c276d0e6b0e6"
+    },
+    "venustas-colorize": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "d7f66480abdc2655fe36bdbf62df3423f0202f80ba1f6cca82d556fe7e89755e"
+    },
+    "venustas-critique": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "9927e2359e577ea9ee40e448a989e5914e093f90dea7288f188aa8587c25e7ed"
+    },
+    "venustas-delight": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "bf6de226e08eea0f3a2b4b87cf710b9952db76936a3a0c5fbab7186345a39c95"
+    },
+    "venustas-distill": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "13aeb3501fcf81a63bad60faaa295ff59b51fb3fb6ef86e7faa569d75a4cf24d"
+    },
+    "venustas-extract": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "ca7b559ff7b5b125846756de5b171aa3805d302711127170a0bbaa217a573aa7"
+    },
+    "venustas-harden": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "b34f4d9d5b2be5ad533f93cbc8d06dd0fb1295224df7fb3b663cd5efa29b80a2"
+    },
+    "venustas-normalize": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "5fcb5a8478ca0af242be1be6b8dfc72551eccd76b5e98d8751f462b1b01ac693"
+    },
+    "venustas-onboard": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "b68650adc23cbfe69864e4da3c04e2531770dce8b2050a8871a75be8a554df83"
+    },
+    "venustas-optimize": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "d74dcdc89e84a63d75dc47c9795015be825749518fefa04da44c10dd5ae7f8f2"
+    },
+    "venustas-overdrive": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "0c91f0bdfba6d14b46a0dd4ff263e862686935cbf4cb7d3a68b5af66615b700d"
+    },
+    "venustas-polish": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "bb7414b36f58e6199c2a54837afe7465da0e80ec5596b81f8277d9bbe89a21a7"
+    },
+    "venustas-quieter": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "f07d70baf6748d2dc85dfa6d23861c0d2dba7406ba6aa2b0fb4f7a2fdf3e49f1"
+    },
+    "venustas-shape": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "7cf31938e8a198abdc81a1a8abcd86330821c2fbc08563fd8faa4ce19e5778e8"
+    },
+    "venustas-typeset": {
+      "source": "naiplawan/venustus",
+      "sourceType": "github",
+      "computedHash": "5dcf71e87aeec5bae2d2d96a68abb1c9b82f091762964cfd0f0f1de9f07bfef0"
+    }
+  }
+}

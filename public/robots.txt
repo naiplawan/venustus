@@ -1,0 +1,6 @@
+# robots.txt for venustus.style
+
+User-agent: *
+Allow: /
+
+Sitemap: https://venustus.style/sitemap.xml
