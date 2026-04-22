@@ -161,4 +161,4 @@ HTML, CSS, SCSS, Less, JSX, TSX, JS, TS, Vue, Svelte, Astro.
 
 ## License
 
-Apache-2.0
+MIT
